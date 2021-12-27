@@ -24,15 +24,15 @@ create table user_0 (
 
 For inserting data: 
 
-```curl localhost:8080/demo/add -d name=Jayant -d email=jayantporwal05@gmail.com```
+```curl localhost:8080/demo/add -d name=jp -d email=jp05@gmail.com```
 
-```curl localhost:8080/demo/add -d name=Payal -d email=payalporwal23@gmail.com```
+```curl localhost:8080/demo/add -d name=pp -d email=pp23@gmail.com```
 
-```curl localhost:8080/demo/add -d name=Pinak -d email=pinakporwal12@gmail.com```
+```curl localhost:8080/demo/add -d name=pip -d email=pp12@gmail.com```
 
-```curl localhost:8080/demo/add -d name=Ravindra -d email=ravindraporwal12@gmail.com```
+```curl localhost:8080/demo/add -d name=rp -d email=rp12@gmail.com```
 
-```curl localhost:8080/demo/add -d name=Kiran -d email=kiranporwal17@gmail.com```
+```curl localhost:8080/demo/add -d name=kp -d email=kp17@gmail.com```
 
 For querying data:
 
