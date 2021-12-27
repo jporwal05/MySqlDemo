@@ -6,21 +6,13 @@ To setup the Docker container running MySQL instance, follow the blog [post](htt
 
 ## SQL to use for creating tables in databases (db0 and db1)
 
-Both tables need to be created in each of the databases.
+The table needs to be created in each of the databases.
 
 - Database db0 is on docker container mysql0
 - Database db1 is on docker container mysql1
 
 ```roomsql
 create table user_0 ( 
-    id bigint(10) not null auto_increment, 
-    name varchar(50), 
-    email varchar(100), 
-    primary key (id) 
-);
-```
-```roomsql
-create table user_1 ( 
     id bigint(10) not null auto_increment, 
     name varchar(50), 
     email varchar(100), 
